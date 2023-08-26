@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "doctors",
+  "info": {
+    "singularName": "doctor",
+    "pluralName": "doctors",
+    "displayName": "doctor"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "nombre": {
+      "type": "string"
+    },
+    "telefono": {
+      "type": "string"
+    },
+    "especialidad": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    },
+    "direccion": {
+      "type": "string"
+    }
+  }
+}
